@@ -1,0 +1,121 @@
+{
+    "URProgram": {
+        "name": "urpTest",
+        "installation": "default",
+        "installationRelativePath": "default",
+        "directory": "/home/ur/ursim/ursim-5.15.0.126572/programs",
+        "createdIn": "5.15.0",
+        "lastSavedIn": "5.15.0",
+        "robotSerialNumber": "2019559999",
+        "createdInPolyscopeProgramVersion": "2",
+        "lastSavedInPolycopeProgramVersion": "2",
+        "crcValue": "3747380250",
+        "kinematics": {
+            "status": "NOT_INITIALIZED",
+            "validChecksum": "false",
+            "deltaTheta": "0.0, 0.0, 0.0, 0.0, 0.0, 0.0",
+            "a": "0.0, -0.425, -0.3922, 0.0, 0.0, 0.0",
+            "d": "0.1625, 0.0, 0.0, 0.1333, 0.0997, 0.0996",
+            "alpha": "1.570796327, 0.0, 0.0, 1.570796327, -1.570796327, 0.0",
+            "jointChecksum": "-1, -1, -1, -1, -1, -1"
+        },
+        "children": {
+            "InitVariablesNode": {},
+            "SpecialSequence": {
+                "type": "BeforeStart",
+                "children": {
+                    "Wait": {
+                        "type": "Sleep",
+                        "waitTime": "0.22"
+                    }
+                }
+            },
+            "MainProgram": {
+                "runOnlyOnce": "true",
+                "InitVariablesNode": "false",
+                "children": {
+                    "Move": {
+                        "motionType": "MoveJ",
+                        "speed": "1.0472",
+                        "acceleration": "1.3962634015954636",
+                        "useActiveTCP": "true",
+                        "positionType": "CartesianPose",
+                        "feature": {
+                            "class": "GeomFeatureReference",
+                            "referencedName": "Joint_0_name"
+                        },
+                        "children": {
+                            "Waypoint": [
+                                {
+                                    "type": "Fixed",
+                                    "name": "生成的路点_1",
+                                    "kinematicsFlags": "4",
+                                    "motionParameters": {},
+                                    "position": {
+                                        "JointAngles": {
+                                            "angles": "-1.6, -1.7, -2.2, -0.8, 1.6, -0.03"
+                                        },
+                                        "TCPOffset": {
+                                            "pose": "0.0, 0.0, 0.12, 0.0, 0.0, 0.0"
+                                        },
+                                        "Kinematics": {
+                                            "status": "NOT_INITIALIZED",
+                                            "validChecksum": "false",
+                                            "deltaTheta": "0.0, 0.0, 0.0, 0.0, 0.0, 0.0",
+                                            "a": "0.0, -0.425, -0.3922, 0.0, 0.0, 0.0",
+                                            "d": "0.1625, 0.0, 0.0, 0.1333, 0.0997, 0.0996",
+                                            "alpha": "1.570796327, 0.0, 0.0, 1.570796327, -1.570796327, 0.0",
+                                            "jointChecksum": "-1, -1, -1, -1, -1, -1"
+                                        }
+                                    },
+                                    "BaseToFeature": {
+                                        "pose": "0.0, 0.0, 0.0, 0.0, 0.0, 0.0"
+                                    }
+                                },
+                                {
+                                    "type": "Fixed",
+                                    "name": "生成的路点_2",
+                                    "kinematicsFlags": "4",
+                                    "motionParameters": {},
+                                    "position": {
+                                        "JointAngles": {
+                                            "angles": "-1.6, -1.7, -2.2, -0.8, 1.6, -0.03"
+                                        },
+                                        "TCPOffset": {
+                                            "pose": "0.0, 0.0, 0.12, 0.0, 0.0, 0.0"
+                                        },
+                                        "Kinematics": {
+                                            "status": "NOT_INITIALIZED",
+                                            "validChecksum": "false",
+                                            "deltaTheta": "0.0, 0.0, 0.0, 0.0, 0.0, 0.0",
+                                            "a": "0.0, -0.425, -0.3922, 0.0, 0.0, 0.0",
+                                            "d": "0.1625, 0.0, 0.0, 0.1333, 0.0997, 0.0996",
+                                            "alpha": "1.570796327, 0.0, 0.0, 1.570796327, -1.570796327, 0.0",
+                                            "jointChecksum": "-1, -1, -1, -1, -1, -1"
+                                        }
+                                    },
+                                    "BaseToFeature": {
+                                        "pose": "0.0, 0.0, 0.0, 0.0, 0.0, 0.0"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "Wait": [
+                        {
+                            "type": "DigitalInput",
+                            "pin": {
+                                "referencedName": "digital_in[0]"
+                            },
+                            "digitalValue": "1"
+                        },
+                        {
+                            "type": "Sleep",
+                            "waitTime": "0.12"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
