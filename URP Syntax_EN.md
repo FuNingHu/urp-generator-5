@@ -416,4 +416,4 @@ Defines program pauses or conditional waits.
 
 This is the `output_1.urp` result generated based on the `urpRecipt.json` in the repository. One advantage of the method introduced in this article is that you can name your waypoint nodes with special characters in languages such as Chinese, Japanese, or Korean, which cannot be achieved natively in Polyscope.
 
-![Screenshot 2025-04-30 181154](./pictures/Screenshot 2025-04-30 181154.png)
+![Screenshot 2025-04-30 181154](./pictures/Screenshot_2025-04-30_181154.png)
