@@ -377,3 +377,8 @@
 </URProgram>
 ```
 
+
+
+这是根据库中urpRecipt.json生成的output_1.urp结果，本文介绍的方法带来的一个好处是可以用中文/日本/韩文等特殊字体命名你的路点节点，而这在Polyscope 本地是无法实现的.
+
+![Screenshot 2025-04-30 181154](./pictures/Screenshot 2025-04-30 181154.png)
